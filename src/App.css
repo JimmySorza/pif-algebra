@@ -23,7 +23,7 @@
 }
 .group{
   font-size: 12px;
-  margin: 10px;
+  margin: 30px 0 10px 0;
   color: #7098d2;
 }
 .choiceWrapper > p{
@@ -32,10 +32,15 @@
 
 .App-logo {
   pointer-events: none;
+  margin-top: 30px;
 }
 .exercise{
   font-size: 50px;
   margin: 10px auto;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-header {
@@ -49,8 +54,51 @@
   color: white;
 }
 
-
-
 p{
   margin: 3px auto;
+}
+.matrix{
+  display: flex;
+  max-width: 170px;
+  margin: 20px 30px;
+  flex-wrap: wrap;
+}
+.matrix >p{
+  width: 45%;
+  border: aliceblue solid;
+  margin: 0 auto;
+}
+.score{
+  padding: 0 0 30px 0;
+}
+.answersWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+.answersWrapper > label{
+  width: 45%;
+  margin: 20px auto;
+}
+.answersWrapper > label > input{
+  width: 90%;
+  height: 90px;
+  font-size: 60px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.button{
+  margin-top: 20px;
+  width: 80%;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: 400px;
+}
+.button:hover{
+  background-color: #1768e2;
+  color: aliceblue;
 }
